@@ -6,7 +6,7 @@ The solution to this problem is to download several photo albums at a time. Howe
 
 This function will let you just enter some text (e.g. a year) and then automatically select all albums where that text is in its name.
 
-##Usage
+## Usage
 Navigate to Google Takeout (https://takeout.google.com/) and create a new export. Then deselect all products except for Google Photos and under Google Photos click the button that says "all photo albums selected" to open the selection window.
 Press Ctrl + Shift + J to open the console, and copy the code from src/script.js into your console window. Now, you can simply type selectAlbums("2015"); to select all albums containing the text "2015", etc.
 
